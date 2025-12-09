@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- VS Code ---
+.vscode/
+
+# --- macOS ---
+.DS_Store
+
+# --- Logs ---
+*.log
+logs/
+*.out
+*.err
+
+# --- Model files ---
+models/*.pt
+models/*.pth
+models/*.onnx
+models/checkpoints/
+
+# --- Data ---
+data/*.csv
+data/*.json
+data/raw/
+data/tmp/
+data/cache/
+
+# --- Environment / dependencies ---
+*.env
+.env*
+
+# --- PyTorch Lightning / torch ---
+lightning_logs/
+wandb/
+weights/
+checkpoints/
+
+# --- temp / debug ---
+tmp/
+temp/
